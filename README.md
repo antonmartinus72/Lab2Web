@@ -47,6 +47,7 @@ Struktur html yang digunakan :
 ![img](https://github.com/antonmartinus72/Lab2Web/raw/main/assets/5_code.jpg)
 
 Struktur css yang digunakan :
+
 ![img](https://github.com/antonmartinus72/Lab2Web/raw/main/assets/5_css.jpg)
 
 Disini terdapat selector **.container** yang berfungsi sebagai pengatur wilayah yang akan diisi oleh objek lainnya. Untuk masing-masing box menggunakan selectornya sendiri untuk membuat warna background berbeda. Sebagai pembentuk ketiga kotak, disini menggunakan selector `.containe .box a` dan menggunakan properti `padding` yang membuat kotak dapat di-klik dan berfungsi sebagai hyperlink. Properti `Border` juga ditambahkan untuk membuat garis pada sisi kotak. 
