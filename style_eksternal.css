@@ -50,11 +50,12 @@ nav a:hover {
 /* Addition */
 
 body {
-	background-image: url("img/bg.png");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+    background-image: url("img/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-attachment: fixed;
 
 }
 
@@ -95,11 +96,73 @@ body {
 	background-color: #4CAF50;
 }
 .container .box #left:hover {
-	background-color: #31394F;
+    background-color: #31394F;
+    animation-name: rainbow;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
 }
 .container .box #middle:hover {
 	background-color: #FFA14D;
+	animation-name: rainbow;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
 }
 .container .box #right:hover  {
 	background-color: #56DB5B;
+	animation-name: rainbow;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+.img_container {
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.img_container img {
+    margin: auto;
+    display: block;
+    width: 90%;
+    border-radius: 5px;
+    height: auto;
+}
+footer {
+    height: 175px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-image: linear-gradient(180deg,rgba(41,41,41,1.00) 3.73%,rgba(40,40,40,0.98) 71.51%,rgba(40,40,40,0.98) 72.75%,rgba(53,58,58,0.95) 100%);
+    margin-top: 30px;
+    padding-bottom: 60px;
+    font-size: 18px;
+    color: #C7C7C7;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+footer a {
+    color: #FFFFFF;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+#footer-right {
+    float: left;
+    width: auto;
+    height: auto;
+    margin-top: 23px;
+    padding-left: 0px;
+    margin-left: 10%;
+}
+#footer-left {
+    float: left;
+    width: 39%;
+    height: auto;
+    margin-left: 11%;
+    margin-top: 23px;
 }
