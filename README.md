@@ -1,3 +1,4 @@
+
 # PRAKTIKUM PEMROGRAMAN WEB 2
 
 ## Praktikum
@@ -9,7 +10,7 @@ Perintah dalam praktikum ini adalah mempraktikan penulisan ulang kode html beser
 
 Selanjutnya kita akan menambahkan dan memodifikasi kode html dan css di atas.
 
-## 1. Backround Gambar
+## 1. Experimen CSS
 Di bawah ini adalah kode css yang sudah diubah sehingga membentuk tampilan seperti ini :
 
 ![img](https://github.com/antonmartinus72/Lab2Web/raw/main/assets/2_ss.jpg)
@@ -23,11 +24,13 @@ Perubahan di atas terdapat pada warna layout yang berubah dan memiliki transpara
 Untuk format warna `background-color` yang dipakai adalah format **rgba** yang mendukung pewarnaan transparan.
 
 ### 2. Background gambar :
+
 ![img](https://github.com/antonmartinus72/Lab2Web/raw/main/assets/2_code.jpg)
 
 Background diatas dibuat dengan menggunakan deklarasi `background-size : cover;` yang membuat background memenuhi halaman. 
 
 ### 3. Hover
+
 Pada file css terdapat selector slass "**btn-primary**" yang menggunakan `hover`  yang merupakan salah satu **Pseudo-Class** pada css. Penggunaan `hover` digunakan untuk membuat tombol dapat berubah warna saat kursor menyentuh tombol tersebut.
 
 ![img](https://github.com/antonmartinus72/Lab2Web/raw/main/assets/4_ss.jpg)
