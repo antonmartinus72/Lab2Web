@@ -1,0 +1,105 @@
+nav {
+	background: #C5AD7F;
+	color:#fff;
+	padding: 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	padding:10px 20px;
+}
+
+nav .active,
+nav a:hover {
+	background: #0B6B3A;
+}
+
+/* ID Selector */
+#intro {
+	background-color: rgba(109, 134, 140, 0.6);
+	border: 1px solid #C5AE80;
+	min-height: 100px;
+	padding: 10px;
+
+}
+#intro h1 {
+	text-align: left;
+	border: 0;
+	color: #fff;
+}
+
+/* Class Selector */
+.button {
+	padding: 15px 20px;
+	background: #2F4858;
+	color: #fff;
+	display: inline-block;
+	margin: 10px;
+	text-decoration: none;
+}
+
+.btn-primary {
+	background: #2F4858;
+}
+
+.btn-primary:hover{
+	background: #4294DA;
+}
+
+/* Addition */
+
+body {
+	background-image: url("img/bg.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+.container {
+	margin-top: 35px;
+	height: 90%;
+	display: block;
+}
+.container .box {
+	width: 33%;
+	display: inline-block;
+	/* [disabled]background-color: black; */
+}
+
+.container .box a {
+	text-align: center;
+	background-color: #BB3436;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 155%;
+	display: block;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding: 20%;
+	margin-bottom: 5px;
+	border-radius: 5%;
+	border: 3px solid #8A8A8A;
+}
+.container .box #left {
+	background-color: #24292E;
+}
+.container .box #middle {
+	background-color: #FBBC05;
+}
+.container .box #right {
+	background-color: #4CAF50;
+}
+.container .box #left:hover {
+	background-color: #31394F;
+}
+.container .box #middle:hover {
+	background-color: #FFA14D;
+}
+.container .box #right:hover  {
+	background-color: #56DB5B;
+}
